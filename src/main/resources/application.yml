@@ -1,5 +1,7 @@
 db:
-  username: danw
-  password: foo
-  database: danw
+  username: ${POSTGRESQL_ADDON_USER}
+  password: ${POSTGRESQL_ADDON_PASSWORD}
+  database: ${POSTGRESQL_ADDON_DB}
   poolSize: 4
+  hostname: ${POSTGRESQL_ADDON_HOST}
+  port: ${POSTGRESQL_ADDON_PORT}
